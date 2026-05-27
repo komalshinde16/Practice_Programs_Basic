@@ -11,5 +11,6 @@ public class LargestElement {
                 max = array[i];
             }
         }
+        System.out.println("maximum num is : " + max);
     }
 }
