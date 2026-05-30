@@ -10,5 +10,6 @@ public class MinimumElement {
                 min = array[i];
             }
         }
+        System.out.println(min);
     }
 }
