@@ -9,6 +9,6 @@ public class Sum02 {
             sum = sum + array[i];
 
         }
-
+        System.out.println("sum of the elements present in the array is : " +sum);
     }
 }
