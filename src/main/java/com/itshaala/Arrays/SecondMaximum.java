@@ -7,5 +7,17 @@ public class SecondMaximum {
 
         int max = array[0];
         int secondMax = array[0];
+
+
+
+        for (int i = 1; i < array.length; i++) {
+
+            if (array[i] > max) {
+                secondMax = max;
+                max = array[i];
+            } else if (array[i] > secondMax && array[i] != max) {
+                secondMax = array[i];
+            }
+        }
     }
 }
