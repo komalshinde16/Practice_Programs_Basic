@@ -19,5 +19,6 @@ public class SecondMaximum {
                 secondMax = array[i];
             }
         }
+        System.out.println("Second Maximum Element = " + secondMax);
     }
 }
