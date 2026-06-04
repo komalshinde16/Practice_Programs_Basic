@@ -6,5 +6,16 @@ public class SecondLargest {
         int[] array = {41,2,45,85,74,36,12};
         int max = array[0];
         int secondMax = array[0];
+
+
+        for (int i = 1; i < array.length; i++) {
+
+            if (array[i] > max) {
+                secondMax = max;
+                max = array[i];
+            } else if (array[i] > secondMax && array[i] != max) {
+                secondMax = array[i];
+            }
+        }
     }
 }
