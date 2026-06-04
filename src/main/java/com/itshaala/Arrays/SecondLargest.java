@@ -17,5 +17,6 @@ public class SecondLargest {
                 secondMax = array[i];
             }
         }
+        System.out.println(secondMax);
     }
 }
