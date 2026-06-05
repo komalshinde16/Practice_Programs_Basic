@@ -18,6 +18,7 @@ public class SecondMinimum {
                 secondMin = array[i];
             }
         }
+        System.out.println(secondMin);
 
 
     }
