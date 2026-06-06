@@ -11,6 +11,7 @@ public class RemoveDuplicates {
         for(int num:array){
             set.add(num);
         }
+        System.out.println(set);
     }
 
 }
