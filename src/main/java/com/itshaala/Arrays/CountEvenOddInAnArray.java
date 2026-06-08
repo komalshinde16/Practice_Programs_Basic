@@ -16,5 +16,7 @@ public class CountEvenOddInAnArray {
                 oddCount++;
             }
         }
+        System.out.println("Even Numbers Count = " + evenCount);
+        System.out.println("Odd Numbers Count = " + oddCount);
     }
 }
