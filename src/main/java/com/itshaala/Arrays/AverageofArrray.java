@@ -10,6 +10,9 @@ public class AverageofArrray {
         for (int i = 0; i < array.length; i++) {
             sum = sum + array[i];
         }
+        double average = (double) sum / array.length;
+
+        System.out.println("Average = " + average);
 
     }
 }
