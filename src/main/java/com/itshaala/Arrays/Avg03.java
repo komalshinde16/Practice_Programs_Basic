@@ -8,6 +8,10 @@ public class Avg03 {
 
 
         int sum = 0;
+        for (int i = 0; i < array.length; i++) {
+            sum = sum + array[i];
+        }
+        double average = (double) sum / array.length;
 
     }
 }
