@@ -13,5 +13,7 @@ public class Avg03 {
         }
         double average = (double) sum / array.length;
 
+        System.out.println("Average = " + average);
+
     }
 }
