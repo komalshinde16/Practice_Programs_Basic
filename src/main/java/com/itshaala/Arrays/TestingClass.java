@@ -6,6 +6,8 @@ public class TestingClass {
 
         if (num%2==0){
             System.out.println("even number it is");
+        }else{
+            System.out.println("odd num it ts");
         }
     }
 }
