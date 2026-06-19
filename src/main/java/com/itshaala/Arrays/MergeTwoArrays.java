@@ -14,7 +14,9 @@ public class MergeTwoArrays {
         for(int i=0; i<array2.length; i++){
             merged[array1.length+i] = array2[i];
         }
-
+        for(int i=0; i<merged.length;i++){
+            System.out.print(merged[i]+ " ");
+        }
 
 
     }
