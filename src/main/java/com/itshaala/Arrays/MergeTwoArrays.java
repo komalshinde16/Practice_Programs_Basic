@@ -6,6 +6,8 @@ public class MergeTwoArrays {
         int [] array1= {1,2,3};
         int [] array2 = {4,5,6};
 
+        int[] merged = new int[array1.length + array2.length];
+
 
     }
 }
