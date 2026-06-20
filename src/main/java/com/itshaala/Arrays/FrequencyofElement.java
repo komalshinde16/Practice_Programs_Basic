@@ -19,6 +19,7 @@ public class FrequencyofElement {
                     visited[j] = true;
                 }
             }
+            System.out.println(count);
 
         }
     }
