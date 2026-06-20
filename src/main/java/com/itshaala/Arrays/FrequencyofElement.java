@@ -11,6 +11,15 @@ public class FrequencyofElement {
             if (visited[i])
                 continue;
 
+            int count = 1;
+
+            for (int j = i + 1; j < array.length; j++) {
+                if (array[i] == array[j]) {
+                    count++;
+                    visited[j] = true;
+                }
+            }
+
         }
     }
 }
